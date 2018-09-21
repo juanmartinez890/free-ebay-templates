@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Clean Blog Preview](https://startbootstrap.com/assets/img/templates/clean-blog.jpg)](https://blackrockdigital.github.io/startbootstrap-clean-blog/)
+[![Clean Blog Preview](https://raw.githubusercontent.com/juanmartinez890/freeebaytemplates/master/img/live-preview.png)](https://blackrockdigital.github.io/startbootstrap-clean-blog/)
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-clean-blog/)**
 
