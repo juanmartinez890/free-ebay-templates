@@ -1,0 +1,1142 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" href="#">Free eBay Templates</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="#basicLayouts"><span class="glyphicon glyphicon-chevron-left"></span> Back</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a>{{userEmail}}</a></li>
+				<li><a href="#logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+		
+<!-- MODAL START -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<!-- Trigger -->
+						<button class="btn btn-default" ngclipboard data-clipboard-target="#foo">
+						<span class="glyphicon glyphicon-copy"></span> Copy to Clipboard
+						</button>
+					</div>
+					<div class="modal-body">
+<!-- HTML CODE-->
+<div id="foo" class="container">
+<xmp>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- GALLERY -->
+<style>
+.gallery-thumbnail-image:hover > .gallery-main-image {
+	/* visibility: visible; */
+	display: block;
+	opacity: 1;
+}
+
+.gallery-thumbnail-image {
+	display: inline-block;
+}
+
+.gallery-thumbnail-image img {
+	display: block;
+	width: 100px;
+}
+
+.gallery-main-image {
+	position: absolute;
+	display: none;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+}
+
+#gallery-photo-container {
+	padding: 10px;
+	position: relative;
+}
+
+#gallery-photo-container > img {
+	display: block;
+	width: 100%;
+	opacity: 1;
+}
+
+.gallery-main-image img {
+	display: block;
+	width: 100%;
+}
+
+.gallery-thumbnail-image > img {
+	width: 100px;
+	margin-top: 20px;
+}
+
+.gallery-thumbnail-image img:hover {
+	opacity: 0.3;
+}
+
+</style>
+<!-- GALLERY END CSS -->
+
+<title>Ebay Themplate</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/{{css}}/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+</xmp>
+<!-- HEADER -->
+<xmp ng-hide = "IsHidden">
+<div class="panel panel-default">
+<div class="panel-body"><h1>{{storeNameText}}<h1></div>
+</div>
+</xmp>
+<!-- JUMBOTRON -->
+<xmp ng-hide = "jumbotronIsHidden">
+<div class="jumbotron">
+<h1>{{jumbotronText}}</h1>      
+<p>{{jumbotronTextDescription}}</p>
+</div>
+</xmp>
+
+<!-- NAV -->
+<xmp ng-hide="navIsHidden">
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand" href="#">{{storeNameText}}</a>
+</div>
+<ul class="nav navbar-nav">
+</xmp>
+
+<xmp ng-hide="navTabIsHidden1 || navIsHidden">
+<li><a href="{{navTabHyperlink1}}">{{navTabText1}}</a></li>
+</xmp>
+<xmp ng-hide="navTabIsHidden2 || navIsHidden">
+<li><a href="{{navTabHyperlink2}}">{{navTabText2}}</a></li>
+</xmp>
+<xmp ng-hide="navTabIsHidden3 || navIsHidden">
+<li><a href="{{navTabHyperlink3}}">{{navTabText3}}</a></li>
+</xmp>
+<xmp ng-hide="navTabIsHidden4 || navIsHidden">
+<li><a href="{{navTabHyperlink4}}">{{navTabText4}}</a></li>
+</xmp>
+<xmp ng-hide="navTabIsHidden5 || navIsHidden">
+<li><a href="{{navTabHyperlink5}}">{{navTabText5}}</a></li>
+</xmp>
+
+<xmp ng-hide="navIsHidden">
+</ul>
+</div>
+</nav>
+</xmp>
+
+<xmp ng-hide="carouselIsHidden">
+<!-- GALLERY -->
+<div class="well" align="center">Gallery</div>
+<div class="container-fluid">
+
+<div id="gallery-photo-container">
+
+<img src="{{productImage1}}">
+<div class="gallery-thumbnail-image">
+<img src="{{productImage1}}">
+<div class="gallery-main-image">
+<img src="{{productImage1}}">
+</div>
+</div>
+<div class="gallery-thumbnail-image">
+<img src="{{productImage2}}">
+<div class="gallery-main-image">
+<img src="{{productImage2}}">
+</div>
+</div>
+<div class="gallery-thumbnail-image">
+<img src="{{productImage3}}">
+<div class="gallery-main-image">
+<img src="{{productImage3}}">
+</div>
+</div>
+<div class="gallery-thumbnail-image">
+<img src="{{productImage4}}">
+<div class="gallery-main-image">
+<img src="{{productImage4}}">
+</div>
+</div>
+<div class="gallery-thumbnail-image">
+<img src="{{productImage5}}">
+<div class="gallery-main-image">
+<img src="{{productImage5}}">
+</div>
+</div>
+</div>
+
+</div>
+</br>
+<!-- GALLERY -->
+</xmp>
+
+<!-- PRODUCT NAME -->
+<xmp ng-hide = "productNameIsHidden">
+<div class="panel panel-default">
+<div class="panel-body"><h4>{{productNameText}}</h4></div>
+</div>
+</xmp>
+
+<!-- PRODUCT DESCRPTION -->
+<xmp ng-hide = "productDesIsHidden">
+<div class="well" align="center">Product Description</div>
+{{productDesText}}
+</xmp>
+
+<!-- PRODUCT FEATURES-->
+<xmp ng-hide = "featuresIsHidden">
+<div class="well" align="center">Product Features</div>
+
+<ul class="list-group">
+</xmp>
+
+<xmp ng-hide = "feature1IsHidden || featuresIsHidden">
+<li class="list-group-item">
+<span class="glyphicon glyphicon-ok"></span>	{{feature1}}</li>
+</xmp>
+
+<xmp ng-hide = "feature2IsHidden || featuresIsHidden">
+<li class="list-group-item">
+<span class="glyphicon glyphicon-ok"></span>	{{feature2}}</li>
+</xmp>
+
+<xmp ng-hide = "feature3IsHidden || featuresIsHidden">
+<li class="list-group-item">
+<span class="glyphicon glyphicon-ok"></span>	{{feature3}}</li>
+</xmp>
+
+<xmp ng-hide = "feature4IsHidden || featuresIsHidden">
+<li class="list-group-item">
+<span class="glyphicon glyphicon-ok"></span>	{{feature4}}</li>
+</xmp>
+
+<xmp ng-hide = "feature5IsHidden || featuresIsHidden">
+<li class="list-group-item">
+<span class="glyphicon glyphicon-ok"></span>	{{feature5}}</li>
+</xmp>
+
+<xmp ng-hide = "feature6IsHidden || featuresIsHidden">
+<li class="list-group-item">
+<span class="glyphicon glyphicon-ok"></span>	{{feature6}}</li>
+</xmp>
+
+<xmp ng-hide = "feature7IsHidden || featuresIsHidden">
+<li class="list-group-item">
+<span class="glyphicon glyphicon-ok"></span>	{{feature7}}</li>
+</xmp>
+
+<xmp ng-hide = "feature8IsHidden || featuresIsHidden">
+<li class="list-group-item">
+<span class="glyphicon glyphicon-ok"></span>	{{feature8}}</li>
+</xmp>
+
+<xmp ng-hide = "featuresIsHidden">
+</ul>
+</xmp>
+
+<!-- WHAT IS IN THE BOX-->
+<xmp ng-hide="WhatInIsHidden">
+<div class="well">What's in the Box</div>
+<div class="container-fluid">
+<h5>{{WhatInText}}</h5>
+</div>
+</xmp>
+
+<xmp ng-hide="shopIsHidden">
+<div class="panel panel-default">
+<div class="panel-heading"><label for="productName">
+<span class="glyphicon glyphicon-tags"></span> Shop category</label></div>
+<div class="panel-body">
+<ul class="nav nav-pills nav-stacked">
+</xmp>
+<xmp ng-hide="shopIsHidden || shopTabIsHidden1">
+<li><a href="{{shopTabHyperlink1}}">{{shopTabText1}}</a></li>
+</xmp>
+<xmp ng-hide="shopIsHidden || shopTabIsHidden1">
+<li><a href="{{shopTabHyperlink2}}">{{shopTabText2}}</a></li>
+</xmp>
+<xmp ng-hide="shopIsHidden || shopTabIsHidden1">
+<li><a href="{{shopTabHyperlink3}}">{{shopTabText3}}</a></li>
+</xmp>
+<xmp ng-hide="shopIsHidden || shopTabIsHidden1">
+<li><a href="{{shopTabHyperlink4}}">{{shopTabText4}}</a></li>
+</xmp>
+<xmp ng-hide="shopIsHidden || shopTabIsHidden1">
+<li><a href="{{shopTabHyperlink5}}">{{shopTabText5}}</a></li>
+</xmp>
+
+<xmp ng-hide="shopIsHidden">
+</ul>
+</div>
+</div>
+</xmp>
+
+<xmp ng-hide="payIsHidden">
+<div class="panel panel-default">
+<div class="panel-heading"><label for="productName">
+<span class="glyphicon glyphicon-credit-card"></span> Payment Policy</label></div>
+<div class="panel-body">
+<p>{{payDescription}}<p>
+<img class="img-responsive" src="{{payPhotoLink}}" alt="..." width="200">			
+</div>
+</div>
+</xmp>
+
+<xmp ng-hide="shipIsHidden">
+<div class="panel panel-default">
+<div class="panel-heading"><label for="productName">
+<span class="glyphicon glyphicon-plane"></span> Shipping Policy</label></div>
+<div class="panel-body">
+<p>{{shipDescription}}<p>
+<img class="img-responsive" src="{{shipPhotoLink}}" alt="..." width="200">	
+</div>
+</div>
+</xmp>
+
+<xmp ng-hide="returnIsHidden">
+<div class="panel panel-default">
+<div class="panel-heading"><label for="productName">
+<span class="glyphicon glyphicon-refresh"></span> Return Policy</label></div>
+<div class="panel-body">
+<p>{{returnDescription}}<p>
+<img class="img-responsive" src="{{returnPhotoLink}}" alt="..." width="200">	
+</div>
+</div>
+</xmp>
+
+<xmp ng-hide="feedbackIsHidden">
+<div class="panel panel-default">
+<div class="panel-heading"><label for="productName">
+<span class="glyphicon glyphicon-star"></span> Feedback</label></div>
+<div class="panel-body">
+<p>{{feedbackDescription}}<p>
+<img class="img-responsive" src="{{feedbackPhotoLink}}" alt="..." width="200">	
+</div>
+</div>
+</xmp>
+
+<xmp ng-hide="contactIsHidden">
+<div class="panel panel-default" >
+<div class="panel-heading"><label for="productName">
+<span class="glyphicon glyphicon-phone-alt"></span> Contact</label></div>
+<div class="panel-body">
+<p>{{contactDescription}}<p>
+<img class="img-responsive" src="{{contactPhotoLink}}" alt="..." width="200">	
+</div>
+</div>
+</xmp>
+
+<!-- FOOTER -->
+<xmp>
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<div class="navbar-header navbar-right">
+<a class="navbar-brand" href="#" style="font-size:1em;" >Magiclister. All Rights Reserved.</a>
+</div>
+</div>
+</nav>
+</div>
+</body>
+</html>
+</xmp>
+</div>
+<!-- END HTML CODE-->
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- MODAL END-->
+		
+		<div class="container-fluid" style="margin-top:75px">
+			<div class="row">
+			
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- themeAdd -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-7516030346002342"
+				 data-ad-slot="2741538369"
+				 data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			</br>
+			
+				<!-- LEFT PANEL -->
+				<div class="col-sm-3" align="left">
+				<div class="form-group">
+				
+				<button class="btn btn-success btn-block" data-toggle="modal" data-target="#myModal">Generate Code</button>
+				</div>
+				
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- themeAdd -->
+				<ins class="adsbygoogle"
+					 style="display:block"
+					 data-ad-client="ca-pub-7516030346002342"
+					 data-ad-slot="2741538369"
+					 data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+				</br>
+				
+				<!-- Accordion -->
+				<div class="panel-group" id="accordion">
+					<!-- HEADER -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseHeader">Template Title</a>
+							</h4>
+						</div>
+						<div id="collapseHeader" class="panel-collapse collapse in">
+							<div class="panel-body">
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group">
+								<input class="form-control" ng-model="storeNameText"></div>
+								</div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{buttonTextColor}}" ng-click="ShowHideHeader()">{{buttonText}}</button>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+					<!-- JUMBOTRON -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseJumbotron">Template Title With Description</a>
+							</h4>
+						</div>
+						<div id="collapseJumbotron" class="panel-collapse collapse">
+							<div class="panel-body">			
+								<div class="form-group">
+									<label for="jumboTitle">Title</label>
+									<input class="form-control" ng-model="jumbotronText">
+								</div>
+								<div class="form-group">
+									<label for="jumboDescription">Description</label>
+									<input class="form-control" ng-model="jumbotronTextDescription">
+								</div>
+								<button type="button" class="btn {{jumbotronButtonTextColor}}" ng-click="ShowHideJumbotron()">{{jumbotronButtonText}}</button>
+							</div>
+						</div>
+					</div>
+					<!-- Navigation-->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseNav">Navigation</a>
+							</h4>
+						</div>
+						<div id="collapseNav" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="form-group">
+							<button type="button" class="btn {{navButtonTextColor}} btn-block" ng-click="ShowHideNavigation()">{{navButtonText}}</button>
+							</div>			
+							
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 1</label>
+									<textarea class="form-control" rows="2" ng-model="navTabHyperlink1"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="navTabText1">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{navTabButtonTextColor1}}" ng-click="ShowHideNavigationTab1()">{{navTabButtonText1}}</button>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 2</label>
+									<textarea class="form-control" rows="2" ng-model="navTabHyperlink2"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="navTabText2">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{navTabButtonTextColor2}}" ng-click="ShowHideNavigationTab2()">{{navTabButtonText2}}</button>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 3</label>
+									<textarea class="form-control" rows="2" ng-model="navTabHyperlink3"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="navTabText3">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{navTabButtonTextColor3}}" ng-click="ShowHideNavigationTab3()">{{navTabButtonText3}}</button>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 4</label>
+									<textarea class="form-control" rows="2" ng-model="navTabHyperlink4"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="navTabText4">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{navTabButtonTextColor4}}" ng-click="ShowHideNavigationTab4()">{{navTabButtonText4}}</button>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 5</label>
+									<textarea class="form-control" rows="2" ng-model="navTabHyperlink5"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="navTabText5">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{navTabButtonTextColor5}}" ng-click="ShowHideNavigationTab5()">{{navTabButtonText5}}</button>
+									</div>
+								</div>
+	
+							</div>
+						</div>
+					</div>
+					
+					<!-- CAROUSEL -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapse3">Image Carousel</a>
+							</h4>
+						</div>
+						<div id="collapse3" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="form-group">
+							<button type="button" class="btn {{carouselButtonTextColor}} btn-block" ng-click="ShowHideCarousel()">{{carouselButtonText}}</button>
+							<p>Learn how to upload your onw pictures to a image hosting website for free.<a target="_blank" href="http://www.freeebaytemplates.com/How-to-Host-your-eBay-Listing-Description-Images-for-Free.html"> Read post.</a></p>
+							</div>	
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink 1</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="productImage1"></textarea>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink 2</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="productImage2"></textarea>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink 3</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="productImage3"></textarea>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink 4</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="productImage4"></textarea>
+								</div>
+								
+								
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink 5</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="productImage5"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- PRODUCT NAME -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapse4">
+								Product Name</a>
+							</h4>
+						</div>
+						<div id="collapse4" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group"><input class="form-control" ng-model="productNameText"></div></div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{productNamebuttonTextColor}}" ng-click="ShowHideProductName()">{{productNamebuttonText}}</button>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+					<!-- PRODUCT DESCRIPTION PANEL -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapse5">
+								Product Description</a>
+							</h4>
+						</div>
+						<div id="collapse5" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="form-group">
+								<trix-editor angular-trix rows="5" id="comment" ng-model="productDesText"></trix-editor></br>
+								<p><strong>Description format will be generated as shown in the text box above.</strong></p>
+							</div>
+							<div class="form-group">
+							<button type="button" class="btn {{productDesbuttonTextColor}}" ng-click="ShowHideProductDes ()">{{productDesbuttonText}}</button>
+							</div>
+							</div>
+						</div>
+					</div>
+					<!-- PRODUCT FEATURES -->
+					<div class="panel panel-default">
+						<!--FEATURES PANEL HEADING-->
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseProductFeatures">
+								Product Features</a>
+							</h4>
+						</div>
+						
+						<div id="collapseProductFeatures" class="panel-collapse collapse">
+						<div class="panel-body">
+							
+							<div class="form-group">
+							<button type="button" class="btn {{featuresButtonTextColor}} btn-block" ng-click="ShowHidefeatures()">{{featuresButtonText}}</button>
+							</div>
+							<!--FEATURE1-->
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group"><input class="form-control" ng-model="feature1"></div></div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{feature1ButtonTextColor}}" ng-click="ShowHidefeature1()">{{feature1ButtonText}}</button></div>
+							</div>
+							<!--FEATURE1-->
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group"><input class="form-control" ng-model="feature2"></div></div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{feature2ButtonTextColor}}" ng-click="ShowHidefeature2()">{{feature2ButtonText}}</button></div>
+							</div>
+							<!--FEATURE1-->
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group"><input class="form-control" ng-model="feature3"></div></div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{feature3ButtonTextColor}}" ng-click="ShowHidefeature3()">{{feature3ButtonText}}</button></div>
+							</div>
+							<!--FEATURE1-->
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group"><input class="form-control" ng-model="feature4"></div></div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{feature4ButtonTextColor}}" ng-click="ShowHidefeature4()">{{feature4ButtonText}}</button></div>
+							</div>
+							<!--FEATURE1-->
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group"><input class="form-control" ng-model="feature5"></div></div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{feature5ButtonTextColor}}" ng-click="ShowHidefeature5()">{{feature5ButtonText}}</button></div>
+							</div>
+							<!--FEATURE1-->
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group"><input class="form-control" ng-model="feature6"></div></div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{feature6ButtonTextColor}}" ng-click="ShowHidefeature6()">{{feature6ButtonText}}</button></div>
+							</div>
+							<!--FEATURE1-->
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group"><input class="form-control" ng-model="feature7"></div></div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{feature7ButtonTextColor}}" ng-click="ShowHidefeature7()">{{feature7ButtonText}}</button></div>
+							</div>
+							<!--FEATURE1-->
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group"><input class="form-control" ng-model="feature8"></div></div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{feature8ButtonTextColor}}" ng-click="ShowHidefeature8()">{{feature8ButtonText}}</button></div>
+							</div>
+						</div>
+						</div>
+					</div>
+					
+					<!-- WHAT'S IN THE BOX -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseWhatIn">What's in the box.</a>
+							</h4>
+						</div>
+						<div id="collapseWhatIn" class="panel-collapse collapse">
+							<div class="panel-body">
+							<div class="row">
+								<div class="col-sm-8"><div class="form-group">
+								<input class="form-control" ng-model="WhatInText"></div>
+								</div>
+								<div class="col-sm-4" align="right">
+								<button type="button" class="btn {{WhatInbuttonTextColor}}" ng-click="ShowHideWhatIn()">{{WhatInbuttonText}}</button>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--SHOP CATEGORY-->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseShopCategoty">Shop Category Panel</a>
+							</h4>
+						</div>
+						<div id="collapseShopCategoty" class="panel-collapse collapse">
+							<div class="panel-body">
+							
+							<div class="form-group">
+							<button type="button" class="btn {{shopButtonTextColor}} btn-block" ng-click="ShowHideShop()">{{shopButtonText}}</button>
+							</div>			
+							
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 1</label>
+									<textarea class="form-control" rows="2" ng-model="shopTabHyperlink1"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="shopTabText1">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{shopTabButtonTextColor1}}" ng-click="ShowHideShopTab1()">{{shopTabButtonText1}}</button>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 2</label>
+									<textarea class="form-control" rows="2" ng-model="shopTabHyperlink2"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="shopTabText2">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{shopTabButtonTextColor2}}" ng-click="ShowHideShopTab2()">{{shopTabButtonText2}}</button>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 3</label>
+									<textarea class="form-control" rows="2" ng-model="shopTabHyperlink3"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="shopTabText3">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{shopTabButtonTextColor3}}" ng-click="ShowHidesShopTab3()">{{shopTabButtonText3}}</button>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 4</label>
+									<textarea class="form-control" rows="2" ng-model="shopTabHyperlink4"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="shopTabText4">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{shopTabButtonTextColor4}}" ng-click="ShowHideShopTab4()">{{shopTabButtonText4}}</button>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="jumboDescription">Hyperlink 5</label>
+									<textarea class="form-control" rows="2" ng-model="shopTabHyperlink5"></textarea>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input class="form-control" ng-model="shopTabText5">
+										</div>
+									</div>
+									<div class="col-sm-4" align="right">
+									<button type="button" class="btn {{shopTabButtonTextColor5}}" ng-click="ShowHideShopTab5()">{{shopTabButtonText5}}</button>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+					</div>
+					
+					<!-- PAYMENT POLICY PANEL -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapsePayment">Payment Policy Panel</a>
+							</h4>
+						</div>
+						<div id="collapsePayment" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div class="form-group">
+									<label for="jumboTitle">Description</label>
+									<textarea class="form-control" rows="3" id="comment" ng-model="payDescription"></textarea>
+								</div>
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="payPhotoLink"></textarea>
+								</div>
+								<button type="button" class="btn {{payInbuttonTextColor}}" ng-click="ShowHidePayment()">{{payInbuttonText}}</button>
+							</div>
+						</div>
+					</div>
+					<!-- SHIPPING POLICY PANEL -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseShipping">Shipping Panel</a>
+							</h4>
+						</div>
+						<div id="collapseShipping" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div class="form-group">
+									<label for="jumboTitle">Description</label>
+									<textarea class="form-control" rows="3" id="comment" ng-model="shipDescription"></textarea>
+								</div>
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="shipPhotoLink"></textarea>
+								</div>
+								<button type="button" class="btn {{shipInbuttonTextColor}}" ng-click="ShowHideShipping()">{{shipInbuttonText}}</button>
+							</div>
+						</div>
+					</div>
+					<!-- RETURN POLICY PANEL -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseReturn">Return Policy Panel</a>
+							</h4>
+						</div>
+						<div id="collapseReturn" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div class="form-group">
+									<label for="jumboTitle">Description</label>
+									<textarea class="form-control" rows="3" id="comment" ng-model="returnDescription"></textarea>
+								</div>
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="returnPhotoLink"></textarea>
+								</div>
+								<button type="button" class="btn {{returnInbuttonTextColor}}" ng-click="ShowHideReturn()">{{returnInbuttonText}}</button>
+							</div>
+						</div>
+					</div>
+					<!-- FEEDBACK POLICY PANEL -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseFeedback">Feedback Policy Panel</a>
+							</h4>
+						</div>
+						<div id="collapseFeedback" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div class="form-group">
+									<label for="jumboTitle">Description</label>
+									<textarea class="form-control" rows="3" id="comment" ng-model="feedbackDescription"></textarea>
+								</div>
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="feedbackPhotoLink"></textarea>
+								</div>
+								<button type="button" class="btn {{feedbackInbuttonTextColor}}" ng-click="ShowHideFeedback()">{{feedbackInbuttonText}}</button>
+							</div>
+						</div>
+					</div>
+					<!-- CONTACT PANEL -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapseContact">Contact Information Panel</a>
+							</h4>
+						</div>
+						<div id="collapseContact" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div class="form-group">
+									<label for="jumboTitle">Description</label>
+									<textarea class="form-control" rows="3" id="comment" ng-model="contactDescription"></textarea>
+								</div>
+								<div class="form-group">
+									<label for="jumboDescription">Image Hyperlink</label>
+									<textarea class="form-control" rows="2" id="comment" ng-model="contactPhotoLink"></textarea>
+								</div>
+								<button type="button" class="btn {{contactInbuttonTextColor}}" ng-click="ShowHideContact()">{{conatactInbuttonText}}</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- PANEL -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="" data-target="#collapse6">
+								Footer</a>
+							</h4>
+						</div>
+						<div id="collapse6" class="panel-collapse collapse">
+							<div class="panel-body">
+							<button type="button" class="btn {{footerbuttonTextColor}} disabled">{{footertbuttonText}}</button>
+							</div>
+						</div>
+					</div>
+				</div> 			
+				<!-- LEFT PANEL END -->
+				</div>
+				
+				<!-- RIGHT PANEL -->
+				<div class="col-sm-9">
+				<div class="container-fluid">
+				
+				<!-- HEADER -->
+				<div class="panel panel-default" ng-hide = "IsHidden">
+					<div class="panel-body"><h1>{{storeNameText}}<h1></div>
+				  </div>
+				<!-- JUMBOTRON -->
+				<div class="jumbotron" ng-hide = "jumbotronIsHidden">
+					<h1>{{jumbotronText}}</h1>      
+					<p>{{jumbotronTextDescription}}</p>
+				  </div>
+	
+					<!-- NAV -->
+					<nav class="navbar navbar-default" ng-hide="navIsHidden">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="#">{{storeNameText}}</a>
+							</div>
+							<ul class="nav navbar-nav">
+								<li ng-hide="navTabIsHidden1"><a href="{{navTabHyperlink1}}" target="_blank">{{navTabText1}}</a></li>
+								<li ng-hide="navTabIsHidden2"><a href="{{navTabHyperlink2}}" target="_blank">{{navTabText2}}</a></li>
+								<li ng-hide="navTabIsHidden3"><a href="{{navTabHyperlink3}}" target="_blank">{{navTabText3}}</a></li>
+								<li ng-hide="navTabIsHidden4"><a href="{{navTabHyperlink4}}" target="_blank">{{navTabText4}}</a></li>
+								<li ng-hide="navTabIsHidden5"><a href="{{navTabHyperlink5}}" target="_blank">{{navTabText5}}</a></li>
+							</ul>
+						</div>
+					</nav>
+		
+						<!-- GALLERY -->
+						<div class="well" ng-hide="carouselIsHidden" align="center">Gallery</div>
+						<div class="container-fluid" ng-hide="carouselIsHidden">
+						
+						<div id="gallery-photo-container">
+							
+							<img src="{{productImage1}}">
+							
+							<div class="gallery-thumbnail-image">
+								<img src="{{productImage1}}">
+								<div class="gallery-main-image">
+									<img src="{{productImage1}}">
+								</div>
+							</div>
+							<div class="gallery-thumbnail-image">
+								<img src="{{productImage2}}">
+								<div class="gallery-main-image">
+									<img src="{{productImage2}}">
+								</div>
+							</div>
+							<div class="gallery-thumbnail-image">
+								<img src="{{productImage3}}">
+								<div class="gallery-main-image">
+									<img src="{{productImage3}}">
+								</div>
+							</div>
+							<div class="gallery-thumbnail-image">
+								<img src="{{productImage4}}">
+								<div class="gallery-main-image">
+									<img src="{{productImage4}}">
+								</div>
+							</div>
+							<div class="gallery-thumbnail-image">
+								<img src="{{productImage5}}">
+								<div class="gallery-main-image">
+									<img src="{{productImage5}}">
+								</div>
+							</div>
+						</div>
+						
+						</div>
+						</br>
+						<!-- GALLERY -->
+
+							
+							<!-- PRODUCT NAME -->
+							<div class="panel panel-default" ng-hide = "productNameIsHidden">
+								<div class="panel-body"><h4>{{productNameText}}</h4></div>
+							 </div>
+							
+							<!-- PRODUCT DESCRPTION -->
+							<div class="well" ng-hide = "productDesIsHidden" align="center">Product Description</div>
+							<div ng-hide = "productDesIsHidden">{{productDesText}}</div>
+							</br>
+							
+							<!-- PRODUCT FEATURES-->
+								<div class="well" align="center" ng-hide = "featuresIsHidden">Product Features</div>
+							
+							<ul class="list-group" ng-hide = "featuresIsHidden">
+								<li class="list-group-item" ng-hide = "feature1IsHidden">
+								<span class="glyphicon glyphicon-ok"></span>	{{feature1}}</li>
+								<li class="list-group-item" ng-hide = "feature2IsHidden">
+								<span class="glyphicon glyphicon-ok"></span>	{{feature2}}</li>
+								<li class="list-group-item" ng-hide = "feature3IsHidden">
+								<span class="glyphicon glyphicon-ok"></span>	{{feature3}}</li>
+								<li class="list-group-item" ng-hide = "feature4IsHidden">
+								<span class="glyphicon glyphicon-ok"></span>	{{feature4}}</li>
+								<li class="list-group-item" ng-hide = "feature5IsHidden">
+								<span class="glyphicon glyphicon-ok"></span>	{{feature5}}</li>
+								<li class="list-group-item" ng-hide = "feature6IsHidden">
+								<span class="glyphicon glyphicon-ok"></span>	{{feature6}}</li>
+								<li class="list-group-item" ng-hide = "feature7IsHidden">
+								<span class="glyphicon glyphicon-ok"></span>	{{feature7}}</li>
+								<li class="list-group-item" ng-hide = "feature8IsHidden">
+								<span class="glyphicon glyphicon-ok"></span>	{{feature8}}</li>
+							</ul>
+							
+							<!-- WHAT IS IN THE BOX-->
+							<div class="well">What's in the Box</div>
+							<div class="container-fluid" ng-hide="WhatInIsHidden">
+								<h5>{{WhatInText}}</h5>
+							</div>
+							
+						<!-- LEFT PANEL END-->
+						
+						<!-- RIGHT PANEL -->
+						
+						<div class="panel panel-default" ng-hide="shopIsHidden">
+							<div class="panel-heading"><label for="productName">
+							<span class="glyphicon glyphicon-tags"></span> Shop category</label></div>
+							<div class="panel-body">
+							<ul class="nav nav-pills nav-stacked">
+								<li ng-hide="shopTabIsHidden1"><a href="{{shopTabHyperlink1}}" target="_blank">{{shopTabText1}}</a></li>
+								<li ng-hide="shopTabIsHidden2"><a href="{{shopTabHyperlink2}}" target="_blank">{{shopTabText2}}</a></li>
+								<li ng-hide="shopTabIsHidden3"><a href="{{shopTabHyperlink3}}" target="_blank">{{shopTabText3}}</a></li>
+								<li ng-hide="shopTabIsHidden4"><a href="{{shopTabHyperlink4}}" target="_blank">{{shopTabText4}}</a></li>
+								<li ng-hide="shopTabIsHidden5"><a href="{{shopTabHyperlink5}}" target="_blank">{{shopTabText5}}</a></li>
+							</ul>
+							</div>
+						</div>
+						
+						<div class="panel panel-default" ng-hide="payIsHidden">
+							<div class="panel-heading"><label for="productName">
+							<span class="glyphicon glyphicon-credit-card"></span> Payment Policy</label></div>
+							<div class="panel-body">
+							<p>{{payDescription}}<p>
+							<img class="img-responsive" src="{{payPhotoLink}}" alt="..." width="200">			
+							</div>
+						</div>
+						
+						<div class="panel panel-default" ng-hide="shipIsHidden">
+							<div class="panel-heading"><label for="productName">
+							<span class="glyphicon glyphicon-plane"></span> Shipping Policy</label></div>
+							<div class="panel-body">
+							<p>{{shipDescription}}<p>
+							<img class="img-responsive" src="{{shipPhotoLink}}" alt="..." width="200">	
+							</div>
+						</div>
+						
+						<div class="panel panel-default" ng-hide="returnIsHidden">
+							<div class="panel-heading"><label for="productName">
+							<span class="glyphicon glyphicon-refresh"></span> Return Policy</label></div>
+							<div class="panel-body">
+							<p>{{returnDescription}}<p>
+							<img class="img-responsive" src="{{returnPhotoLink}}" alt="..." width="200">	
+							</div>
+						</div>
+						
+						<div class="panel panel-default" ng-hide="feedbackIsHidden">
+							<div class="panel-heading"><label for="productName">
+							<span class="glyphicon glyphicon-star"></span> Feedback</label></div>
+							<div class="panel-body">
+							<p>{{feedbackDescription}}<p>
+							<img class="img-responsive" src="{{feedbackPhotoLink}}" alt="..." width="200">	
+							</div>
+						</div>
+						
+						<div class="panel panel-default" ng-hide="contactIsHidden">
+							<div class="panel-heading"><label for="productName">
+							<span class="glyphicon glyphicon-phone-alt"></span> Contact</label></div>
+							<div class="panel-body">
+							<p>{{contactDescription}}<p>
+							<img class="img-responsive" src="{{contactPhotoLink}}" alt="..." width="200">	
+							</div>
+						</div>
+						
+						<!-- FOOTER -->
+						<nav class="navbar navbar-default" ng-hide="footerIsHidden">
+							<div class="container-fluid">
+								<div class="navbar-header navbar-right">
+									<a class="navbar-brand" href="http://magiclister.com/" target="_blank" style="font-size:1em;" >Create a Professional eBay Listing Template at magiclister.com</a>
+								</div>
+							</div>
+						</nav>
+					</div>
+					
+				</div>
+				</div>
+				
+			</div>
+			</div>
+			
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- themeAdd -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-7516030346002342"
+				 data-ad-slot="2741538369"
+				 data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			</br>
+			
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header navbar-right">
+			<a class="navbar-brand" href="#" style="font-size:1em;" >Magic Lister. All Rights Reserved.</a>
+		</div>
+	</div>
+</nav>
