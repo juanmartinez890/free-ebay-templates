@@ -1,27 +1,9 @@
-# [Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/)
+# [Free eBay Template Web App]
 
-[Clean Blog](https://raw.githubusercontent.com/juanmartinez890/freeebaytemplates/master/img/live_preview.png) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
-
-## Preview
-
-[![Clean Blog Preview](https://raw.githubusercontent.com/juanmartinez890/freeebaytemplates/master/img/live-preview.png)](https://blackrockdigital.github.io/startbootstrap-clean-blog/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-clean-blog/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-clean-blog/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-clean-blog.svg)](https://www.npmjs.com/package/startbootstrap-clean-blog)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-clean-blog.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-clean-blog)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog?type=dev)
+Have you seen other eBay actions using some fancy html templates and you want to do the same but you do not know how to do it? Well, I have a B.S. in Computer Science and I can tell you something, it is pretty boring and time consuming to write HTML and CSS. That is why I created a pretty useful tool that generates free eBay Templates. If you want to use it right now, you can Login here. If you are clueless on how add html to your eBay listing description, please keep reading.
 
 ## Download and Installation
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/clean-blog/)
-* Install via npm: `npm i startbootstrap-clean-blog`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-clean-blog.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-clean-blog)
 
 ## Usage
@@ -33,23 +15,6 @@ After downloading, simply edit the HTML and CSS files included with the template
 ### Advanced Usage
 
 After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp sass` compiles SCSS files into CSS
-- `gulp minify-css` minifies the compiled CSS file
-- `gulp minify-js` minifies the themes JS file
-- `gulp copy` copies dependencies from node_modules to the vendor directory
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/clean-blog/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
 
 ## About
 
