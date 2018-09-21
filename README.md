@@ -4,7 +4,7 @@ Have you seen other eBay actions using some fancy html templates and you want to
 
 ## Preview
 
-[![Clean Blog Preview](https://raw.githubusercontent.com/juanmartinez890/freeebaytemplates/master/img/live_preview.png)]
+[![Clean Blog Preview](https://github.com/juanmartinez890/freeebaytemplates/raw/master/img/live_preview.png)]
 
 ## Download and Installation
 
