@@ -2,9 +2,13 @@
 
 Have you seen other eBay actions using some fancy html templates and you want to do the same but you do not know how to do it? Well, I have a B.S. in Computer Science and I can tell you something, it is pretty boring and time consuming to write HTML and CSS. That is why I created a pretty useful tool that generates free eBay Templates. If you want to use it right now, you can Login here. If you are clueless on how add html to your eBay listing description, please keep reading.
 
+## Preview
+
+[![Clean Blog Preview](https://raw.githubusercontent.com/juanmartinez890/freeebaytemplates/master/img/live_preview.png)]
+
 ## Download and Installation
 
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-clean-blog)
+* [Fork, Clone, or Download on GitHub](https://raw.githubusercontent.com/juanmartinez890/freeebaytemplates)
 
 ## Usage
 
@@ -20,9 +24,6 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 
 Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
 * http://davidmiller.io
@@ -32,5 +33,3 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
-
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/gh-pages/LICENSE) license.
