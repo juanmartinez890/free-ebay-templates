@@ -7,7 +7,7 @@ Have you seen other eBay actions using some fancy html templates and you want to
 [![Clean Blog Preview](https://github.com/juanmartinez890/freeebaytemplates/raw/master/img/live_preview.png)]
 
 ## Download and Installation
-
+(https://github.com/juanmartinez890/freeebaytemplates/raw/master/img/live_preview.png)
 * [Fork, Clone, or Download on GitHub](https://raw.githubusercontent.com/juanmartinez890/freeebaytemplates)
 
 ## Usage
