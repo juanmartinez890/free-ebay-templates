@@ -1,35 +1,80 @@
-# [Free eBay Template Web App]
+# Free eBay Template Web App
+
+![alt text](https://github.com/juanmartinez890/freeebaytemplates/raw/master/img/live_preview.png)
 
 Have you seen other eBay actions using some fancy html templates and you want to do the same but you do not know how to do it? Well, I have a B.S. in Computer Science and I can tell you something, it is pretty boring and time consuming to write HTML and CSS. That is why I created a pretty useful tool that generates free eBay Templates. If you want to use it right now, you can Login here. If you are clueless on how add html to your eBay listing description, please keep reading.
 
-## Preview
+## Getting Started
 
-[![Clean Blog Preview](https://github.com/juanmartinez890/freeebaytemplates/raw/master/img/live_preview.png)]
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Download and Installation
-(https://github.com/juanmartinez890/freeebaytemplates/raw/master/img/live_preview.png)
-* [Fork, Clone, or Download on GitHub](https://raw.githubusercontent.com/juanmartinez890/freeebaytemplates)
+### Prerequisites
 
-## Usage
+What things you need to install the software and how to install them
 
-### Basic Usage
+```
+Give examples
+```
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+### Installing
 
-### Advanced Usage
+A step by step series of examples that tell you how to get a development env running
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+Say what the step will be
 
-## About
+```
+Give the example
+```
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+And repeat
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+```
+until finished
+```
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+End with an example of getting some data out of the system or using it for a little demo
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+## Running the tests
 
-## Copyright and License
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+ 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
