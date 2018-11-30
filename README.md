@@ -2,37 +2,58 @@
 
 ![alt text](https://github.com/juanmartinez890/freeebaytemplates/raw/master/img/live_preview.png)
 
-Have you seen other eBay actions using some fancy html templates and you want to do the same but you do not know how to do it? Well, I have a B.S. in Computer Science and I can tell you something, it is pretty boring and time consuming to write HTML and CSS. That is why I created a pretty useful tool that generates free eBay Templates. If you want to use it right now, you can Login here. If you are clueless on how add html to your eBay listing description, please keep reading.
-
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Have you seen other eBay actions using some fancy html templates and you want to do the same but you do not know how to do it? Well, I have a B.S. in Computer Science and I can tell you something, it is pretty boring and time consuming to write HTML and CSS. That is why I created a pretty useful tool that generates free eBay Templates. If you want to use it right now, you can Login here. If you are clueless on how add html to your eBay listing description, please keep reading.
+
+[Live Demo](http://juanjmartinez.me/freeebaytemplates/app/)
+[Learn more about Free ebay Templates](http://juanjmartinez.me/freeebaytemplates/app/)
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+LAMP, MAMP or WAMP Enviroment
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+3. clone the repo
 
-Say what the step will be
+git clone https://github.com/juanmartinez890/free-ebay-templates.git
 
-```
-Give the example
-```
+2. create a database and the user table open sql and run:
 
-And repeat
+--
+-- Database: `freeebaytemplates`
+--
 
-```
-until finished
-```
+-- --------------------------------------------------------
 
-End with an example of getting some data out of the system or using it for a little demo
+--
+-- Table structure for table `USERS`
+--
+
+CREATE TABLE `USERS` (
+  `Uid` int(10) NOT NULL,
+  `Uemail` varchar(25) NOT NULL,
+  `Upassword` varchar(50) NOT NULL,
+  `Utype` int(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `USERS` (`Uid`, `Uemail`, `Upassword`, `Utype`) VALUES
+(1, 'demo@email.com', 'demo', 3);
+
+--
+-- Indexes for table `USERS`
+--
+ALTER TABLE `USERS`
+  ADD PRIMARY KEY (`Uid`);
+
+--
+-- AUTO_INCREMENT for table `USERS`
+--
+ALTER TABLE `USERS`
+  MODIFY `Uid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  
+  3.Then, modify the config.php file
 
 ## Running the tests
 
@@ -50,24 +71,24 @@ Give an example
 
 Explain what these tests test and why
 
-```
-Give an example
-```
-
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
- 
+* [AngularJS](https://angularjs.org) - JavaScript-based open-source front-end web application framework
+* [PHP](http://www.php.net/) - PHP is a popular general-purpose scripting language that is especially suited to web development.
+* [Bootstrap](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.
+* [Bootswatch](https://bootswatch.com/)
+* [clipboard.js](https://clipboardjs.com/) - Copy to clipboard without flash
+* [Trix js](https://github.com/basecamp/trix) - Trix is a WYSIWYG editor for writing messages, comments, articles, and lists
+
+
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Juan J. Martinez** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 ## License
 
@@ -75,6 +96,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Coded with 
