@@ -1,6 +1,8 @@
 # Free eBay Template Web App
 
 ![alt text](https://github.com/juanmartinez890/freeebaytemplates/raw/master/img/live_preview.png)
+![alt text](http://juanjmartinez.me/img/ebay3.png)
+![alt text](http://juanjmartinez.me/img/ebay2.png)
 
 ## Getting Started
 
