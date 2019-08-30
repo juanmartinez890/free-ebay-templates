@@ -1,16 +1,16 @@
 # Free eBay Template Web App
 
 ![alt text](https://github.com/juanmartinez890/freeebaytemplates/raw/master/img/live_preview.png)
-![alt text](http://juanjmartinez.me/img/ebay3.png)
-![alt text](http://juanjmartinez.me/img/ebay2.png)
+![alt text](http://juanjmartinez.com/img/ebay3.png)
+![alt text](http://juanjmartinez.com/img/ebay2.png)
 
 ## Getting Started
 
 Have you seen other eBay actions using some fancy html templates and you want to do the same but you do not know how to do it? Well, I have a B.S. in Computer Science and I can tell you something, it is pretty boring and time consuming to write HTML and CSS. That is why I created a pretty useful tool that generates free eBay Templates. If you want to use it right now, you can Login here. If you are clueless on how add html to your eBay listing description, please keep reading.
 Live Demo:
-[juanjmartinez.com/freeebaytemplates/app/](http://juanjmartinez.me/freeebaytemplates/app/)
+[juanjmartinez.com/freeebaytemplates/app/](http://juanjmartinez.com/freeebaytemplates/app/)
 Learn More:
-[juanjmartinez.com/freeebaytemplates/](http://juanjmartinez.me/freeebaytemplates/)
+[juanjmartinez.com/freeebaytemplates/](http://juanjmartinez.com/freeebaytemplates/)
 
 ### Prerequisites
 
